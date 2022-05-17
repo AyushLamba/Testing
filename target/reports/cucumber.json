@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-10T04:57:58.740Z",
+        "line": 16,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "login;login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null\r\n\tat StepDefinition.LoginSteps.open_browser(LoginSteps.java:31)\r\n\tat ✽.open browser(file:///C:/Users/Ayush.Lamba/OneDrive%20-%20Coforge%20Limited/Desktop/OrangeHRMCucumber23/src/test/resources/Features/loginFuntionality.feature:4)\r\n",
+              "duration": 4735300,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "open browser",
+            "match": {
+              "location": "StepDefinition.LoginSteps.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "navigates to the website oranghrmlive.com",
+            "match": {
+              "location": "StepDefinition.LoginSteps.navigates_to_the_website_oranghrmlive_com()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "login using \u0027Admin\u0027 and \u0027admin123\u0027 as credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Admin\u0027",
+                  "offset": 12
+                },
+                {
+                  "val": "\u0027admin123\u0027",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.LoginSteps.enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "check URL of the page",
+            "match": {
+              "location": "StepDefinition.LoginSteps.login_must_be_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "click on MyInfo tab",
+            "match": {
+              "location": "StepDefinition.LoginSteps.click_on_my_info_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "check some other tabs",
+            "match": {
+              "location": "StepDefinition.LoginSteps.check_some_other_tabs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click on leave tab",
+            "match": {
+              "location": "StepDefinition.LoginSteps.click_on_leave_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "fill all require details and search",
+            "match": {
+              "location": "StepDefinition.LoginSteps.fill_all_require_details_and_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on logout",
+            "match": {
+              "location": "StepDefinition.LoginSteps.click_on_logout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/loginFuntionality.feature",
+    "tags": []
+  }
+]

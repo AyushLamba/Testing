@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.418">
+    <testcase classname="Login" name="Login Functionality" time="0.177">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given open browser..........................................................failed
+When navigates to the website oranghrmlive.com..............................skipped
+And login using 'Admin' and 'admin123' as credentials.......................skipped
+Then check URL of the page..................................................skipped
+Then click on MyInfo tab....................................................skipped
+And check some other tabs...................................................skipped
+When click on leave tab.....................................................skipped
+Then fill all require details and search....................................skipped
+And click on logout.........................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at StepDefinition.LoginSteps.open_browser(LoginSteps.java:31)
+	at ✽.open browser(file:///C:/Users/Ayush.Lamba/OneDrive%20-%20Coforge%20Limited/Desktop/OrangeHRMCucumber23/src/test/resources/Features/loginFuntionality.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>
